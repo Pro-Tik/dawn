@@ -183,7 +183,7 @@ Oops! There was an error in the "Keep Alive" process. Don't worry, it won't take
                 print(f"{Fore.RED}[X] Error: {status_message}{Style.BRIGHT}\n")
 
             # Add random delay between 1 to 2 minutes after each account
-            delay = random.uniform(60, 120)
+            delay = random.uniform(15, 30)
             print(f"{Fore.YELLOW}[~] Waiting for {delay:.2f} seconds before processing the next account.{Style.BRIGHT}")
             time.sleep(delay)
 
